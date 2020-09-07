@@ -4,13 +4,13 @@
 商汤StandardARUnitySDK+ARFoundation制作的Demo
 
 #### 软件架构
-1. Unity2018.4.16c1
-2. ARFoundation 1.5.0-preview.6
-3. SenseAR XR Plugin 1.1.0-preview.3
+1. Unity2019.4.4f1
+2. ARFoundation 3.1.0-preview.8
+3. SenseAR XR Plugin 3.1.0-preview.1
 
 #### 使用说明
 
-1. 可用unity2018.4以上版本打开ARDraw_StandardARUnity项目
+1. 可用Unity2019.4以上版本打开ARDraw_StandardARUnity项目
 2. 手机上安装SenseAR环境   https://openar.sensetime.com/sdks
 3. 打包Main场景后可使用
 
