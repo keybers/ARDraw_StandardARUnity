@@ -21,11 +21,7 @@ Demo made by standard ARunitysdk + ARfoundation
 2.  Lean Touch Plus 2.0.6
 
 
-#### Gitee Feature
+#### Winning awards
+[2020.9.4]Best Popularity Award of industry application group
+https://unity.cn/projects/rang-kai-fa-zhe-tan-suo-geng-duo-ke-neng-xing-unity-shang-tang-sensearying-yong-chuang-zuo-da-sai-wan-mei-shou-guan
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
