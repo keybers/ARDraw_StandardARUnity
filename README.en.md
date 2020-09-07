@@ -4,13 +4,13 @@
 Demo made by standard ARunitysdk + ARfoundation
 
 #### Software Architecture
-1. Unity2018.4.16c1
-2. ARFoundation 1.5.0-preview.6
-3. SenseAR XR Plugin 1.1.0-preview.3
+1. Unity2019.4.4f1
+2. ARFoundation 3.1.0-preview.8
+3. SenseAR XR Plugin 3.1.0-preview.1
 
 #### Instructions
 
-1. Available unity2018.4 Open ardraw in the above version_ Standardarunity project
+1. Available Unity2019.4 Open ardraw in the above version_ Standardarunity project
 2. Installation of SenseAR environment on mobile phone
 3. You can use it after packing the main scene
 
