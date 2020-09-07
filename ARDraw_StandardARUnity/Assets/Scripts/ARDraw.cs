@@ -30,8 +30,8 @@ public class ARDraw : MonoBehaviour
     [HideInInspector] public Material CurrentMaterial; //白色Materials
 
     private ARRaycastManager aRRaycastManager;
-    private ARReferencePointManager aRReferencePointManager;
-    List<ARReferencePoint> aRReferencePoints;
+    private ARAnchorManager aRReferencePointManager;
+    List<ARAnchor> aRReferencePoints;
 
     private Camera TargetCamera; //主相机
     private LineRenderer line;
@@ -48,8 +48,8 @@ public class ARDraw : MonoBehaviour
     void Awake()
     {
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
-        aRReferencePointManager = FindObjectOfType<ARReferencePointManager>();
-        aRReferencePoints = new List<ARReferencePoint>();
+        aRReferencePointManager = FindObjectOfType<ARAnchorManager>();
+        aRReferencePoints = new List<ARAnchor>();
         UIManager = GetComponent<UIManager>();
     }
     void Start()
@@ -110,7 +110,7 @@ public class ARDraw : MonoBehaviour
 
     public void ARDrawType(Pose hitPose, bool notDoubleDrawing)
     {
-        ARReferencePoint referencePoint = aRReferencePointManager.AddReferencePoint(hitPose);
+        ARAnchor referencePoint = aRReferencePointManager.AddAnchor(hitPose);
         if (referencePoint == null)
         {
             Debug.Log("Error creating reference point");
